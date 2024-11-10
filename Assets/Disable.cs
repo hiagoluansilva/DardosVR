@@ -11,6 +11,7 @@ public class Disable : MonoBehaviour
 
     public void InBasket(GameObject go)
     {
+        ScoreManager.instance.AddScore();
         go.SetActive(false);
     }
 
