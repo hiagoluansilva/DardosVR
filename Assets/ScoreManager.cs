@@ -16,19 +16,17 @@ public class ScoreManager : MonoBehaviour
         instance = this;
     }
 
-    // Start is called before the first frame update
     void Start()
     {
-        scoreText.text = "Teste Placar: " + score.ToString();
+        scoreText.text = "Score: " + score.ToString();
     }
 
-    public void AddScore()
+    public void AddScore(int scoreValue)
     {
-        score += 1;
-        scoreText.text = "Teste Placar: " + score.ToString();
+        score += scoreValue;
+        scoreText.text = "Score: " + score.ToString();
     }
 
-    // Update is called once per frame
     void Update()
     {
         

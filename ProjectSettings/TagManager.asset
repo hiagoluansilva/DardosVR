@@ -7,6 +7,7 @@ TagManager:
   - dardoEsfera
   - LHand
   - RHand
+  - player
   layers:
   - Default
   - TransparentFX
