@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 753452781655736829}
   - component: {fileID: 3292153264153390920}
   - component: {fileID: 3184938106260914439}
-  - component: {fileID: 7659265717329163448}
+  - component: {fileID: 6048683441269639588}
   m_Layer: 0
   m_Name: tomato
   m_TagString: dardoEsfera
@@ -287,7 +287,7 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
---- !u!114 &7659265717329163448
+--- !u!114 &6048683441269639588
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -296,8 +296,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 8205361024890749427}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ce752539df02e749be634066a093b12, type: 3}
+  m_Script: {fileID: 11500000, guid: 002a5da3ca48b604a8f5c2064f3ae627, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rightHandModel: {fileID: 0}
-  leftHandModel: {fileID: 0}

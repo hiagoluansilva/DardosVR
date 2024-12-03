@@ -8,6 +8,8 @@ TagManager:
   - LHand
   - RHand
   - player
+  - LMHand
+  - RMHand
   layers:
   - Default
   - TransparentFX
